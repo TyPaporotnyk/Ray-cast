@@ -21,7 +21,6 @@ struct Vector
     void operator= (Vector v);
 
     float abs();
-    float abs(Vector v);
     void normalize();
 };
 

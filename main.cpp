@@ -23,9 +23,6 @@ int main()
         Time::update();
         float dTime = Time::deltaTime();
 
-
-
-
         sf::Event e;
         while(window.pollEvent(e))
         {

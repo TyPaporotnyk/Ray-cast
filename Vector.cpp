@@ -32,11 +32,6 @@ void Vector::normalize()
     y = y/len;
 }
 
-float Vector::abs(Vector v)
-{
-    return sqrt(pow(v.x-x,2)+pow(v.y-y,2));
-}
-
 void Vector::operator=(Vector v)
 {
     x = v.x;

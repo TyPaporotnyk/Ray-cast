@@ -32,7 +32,6 @@ void Map::draw(sf::RenderTarget &window)
 
                 case VOID:
                     wall.setFillColor(sf::Color(200,200,200));
-//                    wall.setOutlineThickness(0);
                 break;
             }
             window.draw(wall);

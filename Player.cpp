@@ -140,7 +140,6 @@ void Player::control(float dTime, const sf::RenderWindow& window, Map& world)
     Vector rayDirection = {cos(degToRad(origin)), -sin(degToRad(origin))};
     rayDirection.normalize();
     Vector rayStart = position;
-//        Vector rayUnitStepSize = {abs(1.0f / rayDirection.x), abs(1.0f / rayDirection.y)};
     Vector rayUnitStepSize = {static_cast<float>(sqrt(1 + (rayDirection.y / rayDirection.x)*(rayDirection.y /
                           rayDirection
                           .x))),

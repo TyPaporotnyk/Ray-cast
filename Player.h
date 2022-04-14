@@ -14,13 +14,9 @@ class Player
 {
 private:
     Vector position;
-    Vector intersection;
-
-    float point;
 
     float origin;
     float speed;
-
 
     sf::Texture playerTexture;
     sf::Sprite playerSprite;
