@@ -1,0 +1,16 @@
+//
+// Created by Даниил on 06.04.2022.
+//
+
+#ifndef STEP_SETTINGS_H
+#define STEP_SETTINGS_H
+
+#define WINDOW_WIDTH 1920
+#define WINDOW_HEIGHT 1152
+
+#define WINDOW_CELL_SIDE 46
+
+#define CELL_HORIZONTAL_COUNT 40
+#define CELL_VERTICAL_COUNT 24
+
+#endif //STEP_SETTINGS_H

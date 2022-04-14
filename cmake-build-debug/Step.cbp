@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Step"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\Library\;CMake Files\..\..\..\..\..\Library\Frameworks\;CMake Files\..\..\..\..\..\Library\Frameworks\SFML.framework\;CMake Files\..\..\..\..\..\Library\Frameworks\SFML.framework\Resources\;CMake Files\..\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/daniil/Documents/Projects/Step/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/daniil/Documents/Projects/Step/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/daniil/Documents/Projects/Step/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Step">
+				<Option output="/Users/daniil/Documents/Projects/Step/Step" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/daniil/Documents/Projects/Step"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SFML.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 Step"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Step/fast">
+				<Option output="/Users/daniil/Documents/Projects/Step/Step" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/daniil/Documents/Projects/Step"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SFML.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 Step/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daniil/Documents/Projects/Step/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/Map.cpp">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/Map.h">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/Player.cpp">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/Player.h">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/Settings.h">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/Time.cpp">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/Time.h">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/Vector.cpp">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/Vector.h">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/main.cpp">
+			<Option target="Step"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/../../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/../../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/../../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/../../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/daniil/Documents/Projects/Step/../../../../../Library/Frameworks/SFML.framework/Resources/CMake/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Library\Frameworks\SFML.framework\Resources\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
