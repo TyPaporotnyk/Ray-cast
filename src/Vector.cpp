@@ -32,10 +32,11 @@ void Vector::normalize()
     y = y/len;
 }
 
-void Vector::operator=(Vector v)
+Vector& Vector::operator=(Vector v)
 {
     x = v.x;
     y = v.y;
+    return *this;
 }
 
 Vector Vector::operator+(Vector v)

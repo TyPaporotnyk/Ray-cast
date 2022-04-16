@@ -29,7 +29,7 @@ private:
 public:
 
     float pDistance;
-    Player(Vector position = {1,1}, float origin = 0, float speed = 0.08);
+    Player(Vector position = {1,1}, float origin = 0, float speed = 0.08, float pDistance = 0);
 
     void loadTexture(std::string texturePath);
     void draw(sf::RenderTarget& window);

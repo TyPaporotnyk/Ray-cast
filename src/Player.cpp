@@ -7,8 +7,8 @@
 #include <cmath>
 #include <iostream>
 
-Player::Player(Vector position, float origin, float speed) :
-position(position), origin(origin), speed(speed)
+Player::Player(Vector position, float origin, float speed, float pDistance) :
+position(position), origin(origin), speed(speed), pDistance(pDistance)
 {
 
 }

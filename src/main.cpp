@@ -4,7 +4,7 @@
 #include "Player.h"
 #include "Map.h"
 #include "Time.h"
-#include "cmath"
+#include <cmath>
 
 int main()
 {
@@ -15,8 +15,8 @@ int main()
     Player player;
     Map map;
 
-    player.loadTexture("img/Player16.png");
-    player.setPosition(map.loadMapFromImage("img/tileMap1.png"));
+    player.loadTexture(std::string(IMG_PATH)+"Player16.png");
+    player.setPosition(map.loadMapFromImage(std::string(IMG_PATH)+"tileMap1.png"));
 
     while(window.isOpen())
     {

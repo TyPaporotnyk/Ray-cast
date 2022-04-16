@@ -18,7 +18,7 @@ struct Vector
     Vector operator+(float v);
     Vector operator-(float v);
     Vector operator*(float v);
-    void operator= (Vector v);
+    Vector& operator=(Vector v);
 
     float abs();
     void normalize();

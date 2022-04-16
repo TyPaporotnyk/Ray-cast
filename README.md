@@ -6,10 +6,20 @@
 
 ## Simple ray cast visualization 
 
-<img src="https://github.com/TyPaporotnyk/Ray-cast/blob/master/img/visualization.gif" width="auto" height="auto"/>
+<img src="docs/visualization.gif" width="auto" height="auto"/>
 
------------
+# Requirements
+* C++ 17
+* CMake 3.20
+* SFML 2.5
 
-Thanks <a href="https://github.com/Kofybrek">Kofybrek<a/> for the textures
+# Building & Running
+```
+cmake -B cmake-build -DCMAKE_BUILD_TYPE=Release
+cmake --build cmake-build
+cmake --build cmake-build --target release
+```
+
+### Thanks <a href="https://github.com/Kofybrek">Kofybrek<a/> for the textures
 
 
