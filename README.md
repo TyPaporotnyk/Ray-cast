@@ -20,6 +20,13 @@ cmake --build cmake-build-debug
 cmake --build cmake-build-debug --target debug
 ```
 
+# Control
+| Action               | Control         |
+| ---------------------|-----------------|
+| Move                 | wasd keys       |
+| Rotation             | mouse movement  |
+| Exit                 | esc             |
+
 ### Thanks <a href="https://github.com/Kofybrek">Kofybrek<a/> for the textures
 
 
