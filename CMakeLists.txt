@@ -22,9 +22,4 @@ target_link_libraries(Ray_cast sfml-graphics)
 target_compile_definitions(Ray_cast PRIVATE IMG_PATH="${CMAKE_SOURCE_DIR}/docs/")
 target_compile_features(Ray_cast PRIVATE cxx_std_20)
 
-ADD_CUSTOM_TARGET(DOCUMENTATION
-        COMMAND ${CMAKE_COMMAND} -E echo_append "Building API Documentation..."
-        COMMAND ${CMAKE_COMMAND} -E make_directory ${DOXYGEN_OUTPUT_DIR}
-        COMMAND ${DOXYGEN_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/Build
-        WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
-        COMMAND ${CMAKE_COMMAND} -E echo "Done.")
+add_custom_target(debug COMMAND Ray_cast)

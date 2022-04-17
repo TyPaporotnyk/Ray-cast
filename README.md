@@ -15,9 +15,9 @@
 
 # Building & Running
 ```
-cmake -B cmake-build -DCMAKE_BUILD_TYPE=Release
-cmake --build cmake-build
-cmake --build cmake-build --target release
+cmake -B cmake-build-debug -DCMAKE_BUILD_TYPE=Debug
+cmake --build cmake-build-debug
+cmake --build cmake-build-debug --target debug
 ```
 
 ### Thanks <a href="https://github.com/Kofybrek">Kofybrek<a/> for the textures
