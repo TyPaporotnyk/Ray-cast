@@ -6,7 +6,7 @@
 
 ## Simple ray cast visualization 
 
-<img src="docs/visualization.gif" width="auto" height="auto"/>
+<img src="docs/visualization.gif" width="50%"/>
 
 # Requirements
 * C++ 17
