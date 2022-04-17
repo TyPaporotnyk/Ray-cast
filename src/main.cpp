@@ -3,26 +3,29 @@
 #include "Settings.h"
 #include "Player.h"
 #include "Map.h"
-#include "Time.h"
-#include <cmath>
+#include <iostream>
+#include <iomanip>
+#include <sstream>
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "FPS");
+    // Main entities
+    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "");
     window.setFramerateLimit(60);
     window.setMouseCursorVisible(false);
 
     Player player;
     Map map;
 
+    sf::Clock clock;
+
+    // Load materials
     player.loadTexture(std::string(IMG_PATH)+"Player16.png");
     player.setPosition(map.loadMapFromImage(std::string(IMG_PATH)+"tileMap1.png"));
 
     while(window.isOpen())
     {
-        Time::update();
-        float dTime = Time::deltaTime();
-
+        // Control
         sf::Event e;
         while(window.pollEvent(e))
         {
@@ -34,13 +37,19 @@ int main()
 
         window.clear();
 
+        // Control
         player.control(1, window, map);
 
-        std::string title = std::to_string((int)round(1.0 / dTime)) + " FPS, " + std::to_string((int)player.pDistance)
-                +" metres";
+        // Title builder
+        auto textBuilder = std::ostringstream();
 
-        window.setTitle(title);
+        textBuilder << std::setw(2) << 1'000'000 / clock.restart().asMicroseconds() << " FPS, ";
+        textBuilder << std::setw(3) << player.getOrigin() << " origin, ";
+        textBuilder << std::setprecision(2) << player.getDistance() << " distance";
 
+        window.setTitle(textBuilder.str());
+
+        // Draw
         map.draw(window);
         player.draw(window);
 

@@ -60,7 +60,7 @@ Vector Map::loadMapFromImage(std::string imgPath)
             }
             else if(pixel == sf::Color(255,0,0))
             {
-                playerPosition = {static_cast<float>(i),static_cast<float>(j)};
+                playerPosition = {static_cast<double>(i),static_cast<double>(j)};
                 mapCell[j][i] = VOID;
             }
             else

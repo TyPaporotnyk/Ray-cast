@@ -15,28 +15,32 @@ class Player
 private:
     Vector position;
 
-    float origin;
-    float speed;
+    double origin;
+    double speed;
+    double distance;
 
     sf::Texture playerTexture;
     sf::Sprite playerSprite;
 
-    float degToRad(int deg);
-    float degCheck(int deg);
+    double degToRad(int deg);
+    double degCheck(int deg);
 
     bool collisionCheck(Vector position, Map& world);
 
 public:
 
-    float pDistance;
-    Player(Vector position = {1,1}, float origin = 0, float speed = 0.08, float pDistance = 0);
+
+    explicit Player(Vector position = {1,1}, double origin = 0, double speed = 0.08, double pDistance = 0);
 
     void loadTexture(std::string texturePath);
     void draw(sf::RenderTarget& window);
-    void control(float dTime, const sf::RenderWindow& window, Map& world);
+    void control(double dTime, const sf::RenderWindow& window, Map& world);
 
-    void setPosition(float x, float y);
     void setPosition(Vector position);
+
+    double getDistance() const;
+
+    double getOrigin() const;
 };
 
 

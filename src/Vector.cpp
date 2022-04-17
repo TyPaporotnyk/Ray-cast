@@ -5,29 +5,29 @@
 #include "Vector.h"
 #include <cmath>
 
-float Vector::abs()
+double Vector::abs() const
 {
     return sqrt(x*x+y*y);
 }
 
-Vector Vector::operator+(float v)
+Vector Vector::operator+(double v) const
 {
     return {x+v, y+v};
 }
 
-Vector Vector::operator-(float v)
+Vector Vector::operator-(double v) const
 {
     return {x-v, y-v};
 }
 
-Vector Vector::operator*(float v)
+Vector Vector::operator*(double v) const
 {
     return {x*v, y*v};
 }
 
 void Vector::normalize()
 {
-    float len = abs();
+    double len = abs();
     x = x/len;
     y = y/len;
 }
@@ -39,7 +39,7 @@ Vector& Vector::operator=(Vector v)
     return *this;
 }
 
-Vector Vector::operator+(Vector v)
+Vector Vector::operator+(Vector v) const
 {
     return {x+v.x, y+v.y};
 }

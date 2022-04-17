@@ -8,19 +8,19 @@
 
 struct Vector
 {
-    float x;
-    float y;
+    double x;
+    double y;
 
     Vector() = default;
-    Vector(float x, float y) : x(x), y(y) {}
+    Vector(double x, double y) : x(x), y(y) {}
 
-    Vector operator+(Vector v);
-    Vector operator+(float v);
-    Vector operator-(float v);
-    Vector operator*(float v);
+    Vector operator+(Vector v) const;
+    Vector operator+(double v) const;
+    Vector operator-(double v) const;
+    Vector operator*(double v) const;
     Vector& operator=(Vector v);
 
-    float abs();
+    [[nodiscard]] double abs() const;
     void normalize();
 };
 

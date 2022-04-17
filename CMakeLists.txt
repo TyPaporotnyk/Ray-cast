@@ -16,7 +16,7 @@ endif()
 
 add_executable(Ray_cast
         src/main.cpp
-        src/Settings.h src/Player.cpp src/Player.h src/Vector.cpp src/Vector.h src/Map.cpp src/Map.h src/Time.cpp src/Time.h)
+        src/Settings.h src/Player.cpp src/Player.h src/Vector.cpp src/Vector.h src/Map.cpp src/Map.h)
 
 target_link_libraries(Ray_cast sfml-graphics)
 target_compile_definitions(Ray_cast PRIVATE IMG_PATH="${CMAKE_SOURCE_DIR}/docs/")
