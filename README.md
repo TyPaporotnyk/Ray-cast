@@ -6,7 +6,11 @@
 
 ## Simple ray cast visualization 
 
-<img src="docs/visualization.gif" width="50%"/>
+<p>
+    <img src="docs/visualization.gif" width="50%"/>
+</p>
+
+<b> Thanks <a href="https://github.com/Kofybrek">Kofybrek</a> for the textures </b>
 
 # Requirements
 * C++ 17
@@ -27,6 +31,5 @@ cmake --build cmake-build-debug --target debug
 | Rotation             | mouse movement  |
 | Exit                 | esc             |
 
-### Thanks <a href="https://github.com/Kofybrek">Kofybrek<a/> for the textures
 
 
